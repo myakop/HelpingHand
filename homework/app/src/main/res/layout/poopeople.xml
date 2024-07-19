@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="#F3EBEB"
+            android:gravity="center"
+            android:text="@string/our"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_view"
+            android:layout_marginTop="16dp"
+            android:columnCount="2"
+            android:rowCount="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="?android:attr/textColorTertiary"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="157dp"
+                    android:layout_height="392dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="246dp"
+                        android:src="@drawable/poverty" />
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:gravity="center"
+                        android:text="Rania and Katya are pictured providing food to the needy"
+                        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="?android:attr/textColorTertiary"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="185dp"
+                    android:layout_height="424dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="214dp"
+                        android:src="@drawable/torod" />
+
+                    <TextView
+                        android:layout_width="147dp"
+                        android:layout_height="194dp"
+                        android:gravity="center"
+                        android:text="Torod Organization prepares food parcels for the poor and hungry"
+                        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="?android:attr/textColorTertiary"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="343dp"
+                        android:src="@drawable/health" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="135dp"
+                        android:gravity="center"
+                        android:text="Dima volunteers to maintain the health status of the elderly"
+                        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="?android:attr/textColorTertiary"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="300dp"
+                        android:src="@drawable/education" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Hala helpes pupils in their homeworks "
+                        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="414dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="?android:attr/textColorTertiary"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="157dp"
+                    android:layout_height="308dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="181dp"
+                        android:src="@drawable/genderequality" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:text="Rami and loreen can play football together in equal"
+                        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+    </RelativeLayout>
+</ScrollView>

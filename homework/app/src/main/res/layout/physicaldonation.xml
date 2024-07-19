@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <include
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="@string/Physical"
+        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+        android:textColor="@color/black"
+        android:textDirection="anyRtl"
+        android:textSize="34sp" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:text="@string/vieworg"
+        android:onClick="ViewOrganaztion"
+         />
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:hint="@string/fullName"
+        android:inputType="text"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:hint="@string/favOrg"
+        android:inputType="text"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:layout_marginTop="15dp"
+        android:text="@string/time"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Body2"/>
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_weight="0"
+        android:focusedMonthDateColor="@color/teal_200"
+        android:scrollbarThumbHorizontal="@color/purple_500"
+        android:scrollbarThumbVertical="@color/purple_700" />
+
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:text="@string/hour"
+        android:onClick="popTimePicker"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="SubmitToAdd"
+        android:text="@string/submit" />
+
+</LinearLayout>

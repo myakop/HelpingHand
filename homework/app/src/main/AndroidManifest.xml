@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homework">
+    <application android:label="@string/app_name">
+    <activity android:exported="true"
+            android:name="com.example.homework.util.homepage"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Homework"
+        android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    </activity>
+        <activity android:exported="true" android:name="com.example.homework.util.ViewDonation" />
+        <activity android:exported="true" android:name="com.example.homework.util.login" />
+        <activity android:exported="true" android:name="com.example.homework.util.admin" android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:exported="true" android:name="com.example.homework.util.matchAndTrack" android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:exported="true" android:name="com.example.homework.util.about" />
+        <activity android:exported="true" android:name="com.example.homework.util.signup" />
+        <activity android:exported="true" android:name="com.example.homework.util.enterpage" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.financialcontribution" android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:exported="true" android:name="com.example.homework.util.physicaldonation" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.poopeople" />
+        <activity android:exported="true" android:name="com.example.homework.util.topvolunteers" />
+        <activity android:exported="true" android:name="com.example.homework.util.MangamentVolunteer" />
+        <activity android:exported="true" android:name="com.example.homework.util.match" />
+        <activity android:exported="true" android:name="com.example.homework.util.ManagementPoorPeople" />
+        <activity android:exported="true" android:name="com.example.homework.util.AddPoorControll" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.ManagementOrganization" />
+        <activity android:exported="true" android:name="com.example.homework.util.AddOrgaization" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.EditVolunteer" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.EditDonation" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.EditPoorPeople" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.EditOrgnization" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:exported="true" android:name="com.example.homework.util.ViewOrganization" />
+
+
+
+    </application>
+    </manifest>

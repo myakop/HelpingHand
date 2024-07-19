@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">homework</string>
+    <string name="on_create">wajd</string>
+    <string name="on_start">wajd\n</string>
+    <string name="on_restart">wajd</string>
+    <string name="sign_up_page">sign up page</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titleAbout">About app</string>
+    <string name="about1">The proposed solution will contribute to reducing poverty and hunger in society. In addition to raising the culture and education of people. And also bridging the gaps between the sexes in order to reach equality between them. It also contributes to raising awareness about volunteering, initiative and helping others, which leads to a cooperative society And we can achieve this matter with the help of this application, which offers many features, through which it is possible to register and donate to the needy and find them with the click of a button and follow up with them and find out what happened to them and it is also possible to measure the level of poverty in different cities.</string>
+    <string name="about2">It will be a great day when you join us!</string>
+
+    <string name="titleOrgaization">Add  Organization</string>
+    <string name="organizationName">name of organization</string>
+    <string name="orgDes">Description</string>
+    <string name="submit">Submit</string>
+
+    <string name="titlePoor">Add Poor People</string>
+    <string name="fullName">Full name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone Number</string>
+
+    <string name="admin">Admin page</string>
+    <string name="vol">Volunteers</string>
+    <string name="needs">Needs People</string>
+    <string name="don">Donations</string>
+    <string name="org">Organizations</string>
+
+    <string name="mail">Mail: myakop13@gmail.com</string>
+    <string name="phoneCon">Phone: 0526916184</string>
+    <string name="fax">Fax: 04-5615612</string>
+
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+
+    <string name="titlefin">Financial donation</string>
+    <string name="donAmount">Donation amount</string>
+
+    <string name="editOrg">Edit  Organization</string>
+
+    <string name="editPoor">Edit Poor People</string>
+
+    <string name="editVol">Edit Volunteer</string>
+    <string name="favOrg">Enter your favorite organziation and your skills</string>
+    <string name="time">  *choose your time :</string>
+    <string name="hour">Press to Select a Hour</string>
+    <string name="Physical">Physical donation</string>
+    <string name="vieworg">View Organaztion</string>
+
+    <string name="Welcome">Welcome</string>
+    <string name="Emergency">Overview of our projects</string>
+    <string name="DonateMoney">Donate Money</string>
+    <string name="Top">Top Volnteers</string>
+    <string name="DonateTime">Donate Time</string>
+    <string name="our">Some projects</string>
+
+
+    <string name="Financial">Financial donation</string>
+    <string name="Id">ID Number</string>
+    <string name="Card">Card Number</string>
+    <string name="CVV">CVV</string>
+    <string name="Val">Validity</string>
+
+    <string name="Home">Home page</string>
+    <string name="Login">Log in</string>
+    <string name="sign">Sign up</string>
+    <string name="about">About</string>
+
+    <string name="Uname">UserName</string>
+    <string name="pass">Password</string>
+
+    <string name="signUp">Sign up</string>
+    <string name="mailSign">Mail</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="Logout">Logout</string>
+
+    <string name="volM">Volunteers Management</string>
+
+    <string name="orgN">Organization page</string>
+    <string name="match">associate</string>
+    <string name="Vol">Available Volunteers</string>
+    <string name="track">Track Volunteers </string>
+    <string name="top5">Top 5 donations</string>
+
+    <string name="emailtosign">Email</string>
+
+
+
+
+
+
+</resources>

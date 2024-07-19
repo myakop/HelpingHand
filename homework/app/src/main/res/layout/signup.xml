@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="0"
+        android:autoText="false"
+        android:gravity="center"
+        android:text="@string/signUp"
+        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+        android:textColor="@color/black"
+        android:textDirection="anyRtl"
+        android:textSize="34sp"/>
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="@string/Uname"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="26sp"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="@string/phone"
+        android:textSize="26sp"
+        android:inputType="phone"
+        android:textColorHint="@color/black" />
+    <EditText
+        android:id="@+id/MailUser"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:hint="@string/mailSign"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+    <RadioGroup
+        android:id="@+id/radioGrp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radioM"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/male"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioF"
+            android:layout_width="160dp"
+            android:layout_height="58dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/female"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:text="@string/submit"
+        android:textSize="30sp"
+        android:layout_marginTop="150sp"
+        android:onClick="goLogIn"
+        />
+
+</LinearLayout>
